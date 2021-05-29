@@ -1,6 +1,7 @@
 import type { Config } from '@jest/types';
 
 const config: Config.InitialOptions = {
+  preset: 'ts-jest',
   clearMocks: true,
   collectCoverageFrom: ['test/**/*.{ts}'],
   coverageDirectory: 'coverage',
@@ -20,8 +21,7 @@ const config: Config.InitialOptions = {
   moduleDirectories: ['node_modules', 'src'],
   moduleFileExtensions: ['js', 'ts', 'json'],
   moduleNameMapper: {},
-  preset: 'ts-jest',
-  setupFilesAfterEnv: ['./configs/jest/test-setup.js'],
+  // setupFilesAfterEnv: ['./configs/jest/test-setup.js'],
   testPathIgnorePatterns: ['./node_modules/'],
   coveragePathIgnorePatterns: ['tests/.+'],
   testRegex: 'tests/.*\\.test\\.ts$',
