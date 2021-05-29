@@ -1,0 +1,38 @@
+{
+  "name": "redux-use-controller",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/tabun80/immutable-collection.git",
+  "author": "tabun80",
+  "license": "MIT",
+  "keywords": [
+    "immutable",
+    "collection",
+    "list",
+    "array"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/parser": "^7.14.4",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-typescript": "^7.13.0",
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.23.3",
+    "jest": "^27.0.1",
+    "prettier": "^2.3.0",
+    "ts-jest": "^27.0.1",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {},
+  "peerDependencies": {},
+  "scripts": {
+    "build": "tsc --noEmit && babel src/index.ts --out-file dist/index.js",
+    "test": "jest"
+  }
+}
