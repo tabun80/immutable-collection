@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collection class iterator return array 1`] = `
+Array [
+  Object {
+    "test": 1,
+  },
+  Object {
+    "test": 2,
+  },
+  Object {
+    "test": 3,
+  },
+]
+`;
+
+exports[`Collection class method: map immutable 1`] = `
+Array [
+  Object {
+    "test": 1,
+  },
+  Object {
+    "test": 2,
+  },
+  Object {
+    "test": 3,
+  },
+]
+`;
+
+exports[`Collection class method: map immutable 2`] = `
+Array [
+  2,
+  3,
+  4,
+]
+`;
+
+exports[`Collection class method: toJson return array 1`] = `
+Array [
+  Object {
+    "test": 1,
+  },
+  Object {
+    "test": 2,
+  },
+  Object {
+    "test": 3,
+  },
+]
+`;
+
+exports[`Collection class property: length 1 1`] = `
+Array [
+  Object {
+    "test": 1,
+  },
+]
+`;
+
+exports[`Collection class property: length 2 1`] = `
+Array [
+  Object {
+    "test": 1,
+  },
+  Object {
+    "test": 2,
+  },
+]
+`;
+
+exports[`Collection class property: length 3 1`] = `
+Array [
+  Object {
+    "test": 1,
+  },
+  Object {
+    "test": 2,
+  },
+  Object {
+    "test": 3,
+  },
+]
+`;
